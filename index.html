@@ -173,6 +173,8 @@
 
 <h2>Positives:</h2>
 
+<hr>
+
 <ul>
 
     <li>Built-in browser live-updating</li>
@@ -213,9 +215,39 @@
     </tr>
 </table>
 
+<br>
 
+<h2>Negatives:</h2>
+
+<hr>
+
+<ol>
+    <li>Still missing some elementary text editor commands.</li>
+        <blockquote>Some gaps have to be filled by plugins, while these features should be built in. For example:</blockquote>
+            <ul>
+                &#9209 Jump to matching brace. (bracket / parenthesis)</li> <br>
+                &#9209 Recall previous searches / replacements.</li> <br>
+                &#9209 Autofill of search field with text under caret. (text has to be selected)</li> <br>
+            </ul>
+    <li>Problematic updater.</li>
+        <blockquote>Though the website says there is an update available, the updater in Brackets may give you an error, resulting in you having to download updates manually.</blockquote>
+    <li>Supports only web languages by default.</li>
+        <blockquote>Brackets is built for web development and that's where it excels at out of the box. Other languages that have a CodeMirror mode can be added as well. language support plugins can be added.</blockquote>
+</ol>
+  
+<code>
+    <html> 
+		<body> 
+			<h1> style="background-color:DodgerBlue;">Hello World</h1> 
+				<p style="background-color:Tomato;"> random words </p>
+		 </body> 
+	</html> </code> constructor:</p>
+<pre><code>function Panel(element, canClose, closeHandler) {
+  this.element = element;
+  this.canClose = canClose;
+  this.closeHandler = function () { if (closeHandler) closeHandler() };
+}</code></pre>
 
 </body>
-
 
 </html>
